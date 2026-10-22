@@ -1,0 +1,20 @@
+{
+  "pr": 2284,
+  "files": [
+    {
+      "path": "competitive-input/PRICE-EXPECTED.json",
+      "source_path": "research/kappa-lemma-toolkit/PRICE-EXPECTED.json",
+      "commit": "e71574b92f6af546013c71293cd03ff58742a1e6",
+      "git_blob": "276ade9834933da3d2cfa2b662215e67f7d9239c",
+      "sha256": "04a6590a13950655e7ba21f6aefeba24fba51dc8f914cf136b0ff2903c8f0a87"
+    },
+    {
+      "path": "competitive-input/NOTICE.md",
+      "source_path": "research/kappa-lemma-toolkit/NOTICE.md",
+      "commit": "e71574b92f6af546013c71293cd03ff58742a1e6",
+      "git_blob": "5dd42f0d59fa6494e3bd0aebd614b44441db9c3c",
+      "sha256": "3175295bbd02566b90ea484eb798e026e94a6a76ffff0e7dd4a483f4c453b74b"
+    }
+  ],
+  "usage": "Only the published complex-saving threshold is used. The new PR2284 profile is not substituted for the old PR2260 invoice and its construction is not audited."
+}

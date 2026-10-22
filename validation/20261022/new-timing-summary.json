@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "workers": 581,
+  "worker_counts": {
+    "TIMINGS.json": 350,
+    "PAIRED-TIMINGS.json": 168,
+    "COMPETITIVE-TIMINGS.json": 63
+  },
+  "initial_summary_groups": 50,
+  "paired_summaries": [
+    {
+      "mode": "cold",
+      "case": "advertised_complex_rate",
+      "pairs": 21,
+      "full_median_seconds": 0.3434987000073306,
+      "gate_median_seconds": 0.35948779998579994,
+      "paired_median_gate_minus_full_seconds": 0.014718099992023781,
+      "paired_median_time_reduction_percent": -4.260427959647095,
+      "gate_faster_pairs": 5,
+      "paired_difference_range_seconds": [
+        -0.05605199999990873,
+        0.04488259999197908
+      ]
+    },
+    {
+      "mode": "cold",
+      "case": "too_large_rate",
+      "pairs": 21,
+      "full_median_seconds": 0.3435613000037847,
+      "gate_median_seconds": 0.2887814999994589,
+      "paired_median_gate_minus_full_seconds": -0.052779799996642396,
+      "paired_median_time_reduction_percent": 15.231298445056197,
+      "gate_faster_pairs": 21,
+      "paired_difference_range_seconds": [
+        -0.07044609999866225,
+        -0.03166560000681784
+      ]
+    },
+    {
+      "mode": "cold",
+      "case": "bracket_midpoint",
+      "pairs": 21,
+      "full_median_seconds": 0.36831140000140294,
+      "gate_median_seconds": 0.37861549999797717,
+      "paired_median_gate_minus_full_seconds": 0.011452200007624924,
+      "paired_median_time_reduction_percent": -3.1287710520481182,
+      "gate_faster_pairs": 4,
+      "paired_difference_range_seconds": [
+        -0.019689299995661713,
+        0.03634780000720639
+      ]
+    },
+    {
+      "mode": "batch",
+      "case": "all_four",
+      "pairs": 21,
+      "full_median_seconds": 0.4389108000032138,
+      "gate_median_seconds": 0.42683409999881405,
+      "paired_median_gate_minus_full_seconds": -0.011074399997596629,
+      "paired_median_time_reduction_percent": 2.5484695691957326,
+      "gate_faster_pairs": 15,
+      "paired_difference_range_seconds": [
+        -0.04549849999602884,
+        0.011306700005661696
+      ]
+    }
+  ],
+  "competitive_summaries": {
+    "full_dual": {
+      "trials": 21,
+      "end_to_end_median_seconds": 0.32734489999711514,
+      "arithmetic_median_seconds": 0.06198120000772178,
+      "paired_median_seconds_saved": 0.0,
+      "paired_median_percent_saved": 0.0,
+      "faster_trials": 0
+    },
+    "root_screen": {
+      "trials": 21,
+      "end_to_end_median_seconds": 0.27496830000018235,
+      "arithmetic_median_seconds": 0.012272799998754635,
+      "paired_median_seconds_saved": 0.05210629999055527,
+      "paired_median_percent_saved": 16.01383753817859,
+      "faster_trials": 21
+    },
+    "reject_gate": {
+      "trials": 21,
+      "end_to_end_median_seconds": 0.27342789999966044,
+      "arithmetic_median_seconds": 0.008889399992767721,
+      "paired_median_seconds_saved": 0.05297410000639502,
+      "paired_median_percent_saved": 16.101707311147873,
+      "faster_trials": 21
+    }
+  },
+  "scope": "Recalculated from saved process samples; no timing value is a correctness threshold."
+}

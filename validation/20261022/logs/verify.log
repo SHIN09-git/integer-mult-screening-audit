@@ -1,0 +1,1 @@
+PASS_PENDING2260_QUADRATIC_SCREEN models=2 thresholds=8 controls=17 inherited_controls=12 full_arithmetic_match=True

@@ -1,0 +1,5 @@
+# Keep public manifests stable across checkout platforms.
+* -text
+*.zip binary
+*.gz binary
+

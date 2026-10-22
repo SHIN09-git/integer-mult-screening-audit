@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "Please cite this local release candidate and the pinned upstream contributions. This candidate is not yet published."
+type: software
+title: "Integer-multiplication pricing: quadratic screening and exact fallback audit"
+version: "1.0.0-rc.1"
+authors:
+  - family-names: JIN
+    given-names: HANZHE
+    affiliation: "Independent Researcher, Chongqing, China"
+    email: jinhanzhe09@gmail.com
+license: Apache-2.0
+abstract: >
+  A retrospective, source-bound pricing experiment on one fixed integer-multiplication
+  construction invoice. Compares certified quadratic screens with two exact evaluators
+  and retains mandatory fallback for surviving or inconclusive cases. Includes exact
+  receipts, negative controls and 581 historical process-timing samples. No new
+  multiplication complexity bound or search-wide speedup is claimed.
+keywords:
+  - integer multiplication
+  - exact arithmetic
+  - screening
+  - reproducibility
+  - benchmarking
+references:
+  - type: software
+    title: "Quadratic screening brackets for the selected supplier roots"
+    authors:
+      - family-names: Wang
+        given-names: Aaron
+    url: "https://github.com/CrocSwap/integer-mult-bounds/tree/b910e86383b2270cf14b7b659a808fa0eb075c7d/research/selected-quadratic-root-brackets"
+    version: "b910e86383b2270cf14b7b659a808fa0eb075c7d"
+    year: 2026
+    license: Apache-2.0
+  - type: software
+    title: "Selective-borrowing construction and pricing evidence, PR 2260"
+    authors:
+      - family-names: Dugongue
+    url: "https://github.com/CrocSwap/integer-mult-bounds/tree/fde6b107e26a14da5bac5b66913c914708ea6901/research/selective-borrowing-kappa"
+    version: "fde6b107e26a14da5bac5b66913c914708ea6901"
+    year: 2026
+    license: Apache-2.0
+  - type: software
+    title: "Published competitive target from the kappa lemma toolkit, PR 2284"
+    authors:
+      - family-names: Dugongue
+    url: "https://github.com/CrocSwap/integer-mult-bounds/tree/e71574b92f6af546013c71293cd03ff58742a1e6/research/kappa-lemma-toolkit"
+    version: "e71574b92f6af546013c71293cd03ff58742a1e6"
+    year: 2026
+    license: Apache-2.0
+

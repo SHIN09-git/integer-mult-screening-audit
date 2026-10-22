@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "files": [
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "e8870e5917057d59b730eb14721a778639eca050",
+      "sha256": "d46eb6d5b3e279428753d770653663fbdf1063e55c255ea073d768f344927ef7"
+    },
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "ae6a99f28aa468649eb66a361e764d769363bf11",
+      "sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+    }
+  ],
+  "frozen_package_sources": [
+    {
+      "path": "inputs/pr1669/README.md",
+      "source_path": "research/selected-quadratic-root-brackets/README.md",
+      "commit": "b910e86383b2270cf14b7b659a808fa0eb075c7d",
+      "git_blob": "9f6a80064da867a35b1e7273ca1af077f0a18d95",
+      "sha256": "d7e0df3418a2e7a3e814d23ea4d30cc7cbb4a92f8f5a032c24dd529c5256ef06"
+    },
+    {
+      "path": "inputs/pr1669/verify.py",
+      "source_path": "research/selected-quadratic-root-brackets/verify.py",
+      "commit": "b910e86383b2270cf14b7b659a808fa0eb075c7d",
+      "git_blob": "6aa57c750137dcbbf6fd89dbfd66ad28ae0bc75d",
+      "sha256": "d635ce4e7583e91fe6f93ecc862353690a3c7017855e26f8b9214276132cf98e"
+    },
+    {
+      "path": "inputs/pr2260/FRONTIER.json",
+      "source_path": "research/selective-borrowing-kappa/FRONTIER.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "bffa6d24cb1e3dfcff904c1bf24b4e1959d3b73f",
+      "sha256": "a8ae30accf49b7322d9830406c641694c760f0de08a2b16a292b01b3c89d443b"
+    },
+    {
+      "path": "inputs/pr2260/LICENSE",
+      "source_path": "research/selective-borrowing-kappa/LICENSE",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "inputs/pr2260/NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "cf8d16b6fcfbfe22637715ca607eba35b177db29",
+      "sha256": "42dfc30bef61513faa1c6b6f8455b4a29044c61c0a9c3b06924d64c4fcf47e2d"
+    },
+    {
+      "path": "inputs/pr2260/README.md",
+      "source_path": "research/selective-borrowing-kappa/README.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "48809a85001beccdea35fb372dc03880bd94032d",
+      "sha256": "58df7f66256f4ab1b68725aff9166e19d8a62424d72159345b96246062108b78"
+    },
+    {
+      "path": "inputs/pr2260/arithmetic/EXPECTED.json",
+      "source_path": "research/selective-borrowing-kappa/arithmetic/EXPECTED.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "e904b407023b13ce6c9b462a00db77c34240cc29",
+      "sha256": "f7e7548796b8888baea2ede61f95bc383aa32242bf669637fe19fcbe829ad614"
+    },
+    {
+      "path": "inputs/pr2260/arithmetic/SOURCES.json",
+      "source_path": "research/selective-borrowing-kappa/arithmetic/SOURCES.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "ec41c61c7b0a2719b81ec8ae49b1fa4e6a47aaf1",
+      "sha256": "7de38f82781070965e4643d852c0ed27fcf2365f681094e74a3bc39aab0eab50"
+    },
+    {
+      "path": "inputs/pr2260/arithmetic/verify.py",
+      "source_path": "research/selective-borrowing-kappa/arithmetic/verify.py",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "93448459db4d487f503ae98391a41b26cf00088d",
+      "sha256": "e2a00d7e8610b145ff478ea791371f1fe454aeb9747989a5bb7a8fe7c2a0b13b"
+    },
+    {
+      "path": "inputs/pr2260/owners/EXPECTED.json",
+      "source_path": "research/selective-borrowing-kappa/owners/EXPECTED.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "4997a677bae7528dcfddde9141e0446fb92e4dfa",
+      "sha256": "c4ad5debab3f3bd5cba68b91e28a6a8fa64febcbeb892b1fd1d27e3977a76cb1"
+    },
+    {
+      "path": "inputs/pr2260/owners/OWNERS.json.gz",
+      "source_path": "research/selective-borrowing-kappa/owners/OWNERS.json.gz",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "912df33d6eb831c978f6ad69b64a97a285a15c27",
+      "sha256": "892b49f97d4caa7e92918262ea3a8cfa8cbf273c92d574ae53bb89a61ee5e847"
+    },
+    {
+      "path": "inputs/pr2260/arithmetic/vendor/base_two_moment.py",
+      "source_path": "research/selective-borrowing-kappa/arithmetic/vendor/base_two_moment.py",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098"
+    },
+    {
+      "path": "inputs/pr2260/arithmetic/vendor/BIT-EXPECTED.json",
+      "source_path": "research/selective-borrowing-kappa/arithmetic/vendor/BIT-EXPECTED.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4"
+    },
+    {
+      "path": "inputs/pr2260/arithmetic/vendor/moment.py",
+      "source_path": "research/selective-borrowing-kappa/arithmetic/vendor/moment.py",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "7d697cb45203fe72d97037403d6da41f71f3b7fd",
+      "sha256": "81cbc864e106418fc7854322746f72180cb8110ff39f74450a3b8d55a82c1482"
+    },
+    {
+      "path": "inputs/pr2260/arithmetic/vendor/outer.py",
+      "source_path": "research/selective-borrowing-kappa/arithmetic/vendor/outer.py",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "43007488ad2c43187c77cc6798beff8b1cd76ad2",
+      "sha256": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c"
+    },
+    {
+      "path": "inputs/pr2260/local/data/finite-invoice.json",
+      "source_path": "research/selective-borrowing-kappa/local/data/finite-invoice.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "5f41d75e65c6e7c1fa6057a212d566c652865e29",
+      "sha256": "6c7d14c364bd5d98395826ea7bc208fe1ebf2e46c62621bd9f393c4c9b0eaf1e"
+    },
+    {
+      "path": "inputs/pr2260/local/data/forward.json",
+      "source_path": "research/selective-borrowing-kappa/local/data/forward.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "63c20f0bd59d712744b46ebea6b1cd12659c3ef5",
+      "sha256": "a9d513bc1d85eb11184d73242a4016119f3968bb2a1ff9b365e78109778c17ee"
+    },
+    {
+      "path": "inputs/pr2260/owners/inputs/PLAN.json",
+      "source_path": "research/selective-borrowing-kappa/owners/inputs/PLAN.json",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "git_blob": "4f17b4ccf339ae346cdaf7851bb81f87ee37bdcf",
+      "sha256": "7b3122026e82b9d9e964d2a50c7bffdc976ae3dfea64bb98b2fdad5cfbdbaa20"
+    }
+  ],
+  "retained_notices": [
+    {
+      "path": "notices/pr2260/owners/NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/owners/NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "be5a27e65fcf281f975bd235409fe3944c4daecc5261a669c52c4c59e6ab3e9f"
+    },
+    {
+      "path": "notices/pr2260/owners/notices/LICENSE",
+      "source_path": "research/selective-borrowing-kappa/owners/notices/LICENSE",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "notices/pr2260/owners/notices/PR1005-NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/owners/notices/PR1005-NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "7a8d17b04da1e6c9d0ec217fb5bda72faa09d9a21695128722dd1e2827870fcf"
+    },
+    {
+      "path": "notices/pr2260/owners/notices/PR1005-UPSTREAM-NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/owners/notices/PR1005-UPSTREAM-NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "a75967ebc34e3bf2ff2c25c08e6c7f1a61b0c0d171cfd1b62196ae2caaf2c610"
+    },
+    {
+      "path": "notices/pr2260/local/vendor/PR2226-NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/local/vendor/PR2226-NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "f1d45d886926915531e3a59968abf0a4c974d7038f869848e71bd3a21b834422"
+    },
+    {
+      "path": "notices/pr2260/local/vendor/FRAME-SA504-NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/local/vendor/FRAME-SA504-NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "a92f49c5ced455160fbedcc8954e3c9255e3605e88ad12ae5a84f1c4302986f1"
+    },
+    {
+      "path": "notices/pr2260/local/vendor/PR1862-NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/local/vendor/PR1862-NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "d86f31a4c0bafd4271fe0c0e087a7fc1cd72d5b705e3739c4ba3e9241b7ba3f9"
+    },
+    {
+      "path": "notices/pr2260/local/vendor/PR1972-NOTICE.md",
+      "source_path": "research/selective-borrowing-kappa/local/vendor/PR1972-NOTICE.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "2d9c60fdeda14a8609f2b210fe0873ee0318788130637db9e5e79d487243ab7d"
+    },
+    {
+      "path": "notices/pr2260/local/vendor/PR1991-README.md",
+      "source_path": "research/selective-borrowing-kappa/local/vendor/PR1991-README.md",
+      "commit": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "sha256": "ef874f86415c98b553bda9199d5f8f2f7a4dd4f6a23e53712c3c1f7268ec5b23"
+    }
+  ],
+  "runtime": "Every proof-relevant runtime input is package-local and checked by INPUTS.json. Source pins are source integrity, not independent mathematical review.",
+  "competitive_target_source": {
+    "pr": 2284,
+    "files": [
+      {
+        "path": "competitive-input/PRICE-EXPECTED.json",
+        "source_path": "research/kappa-lemma-toolkit/PRICE-EXPECTED.json",
+        "commit": "e71574b92f6af546013c71293cd03ff58742a1e6",
+        "git_blob": "276ade9834933da3d2cfa2b662215e67f7d9239c",
+        "sha256": "04a6590a13950655e7ba21f6aefeba24fba51dc8f914cf136b0ff2903c8f0a87"
+      },
+      {
+        "path": "competitive-input/NOTICE.md",
+        "source_path": "research/kappa-lemma-toolkit/NOTICE.md",
+        "commit": "e71574b92f6af546013c71293cd03ff58742a1e6",
+        "git_blob": "5dd42f0d59fa6494e3bd0aebd614b44441db9c3c",
+        "sha256": "3175295bbd02566b90ea484eb798e026e94a6a76ffff0e7dd4a483f4c453b74b"
+      }
+    ],
+    "usage": "Only the published complex-saving threshold is used. The new PR2284 profile is not substituted for the old PR2260 invoice and its construction is not audited."
+  }
+}

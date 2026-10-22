@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Recount all 31392 supplied owner rows, preserve the complete local+idle+surcharge invoice, exact 8 threshold/model comparisons and boundary signs, 17 semantic controls plus 12 inherited controls, and unchanged full PR2260 arithmetic receipt including 47 strict outer rows."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/test_receipts.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Reject frozen owner-byte corruption and three altered result receipts under optimized Python. Timing values are deliberately not pass/fail thresholds."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/competitive_target.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Bind PR2284's exact published target, retain the old PR2260 invoice, compare root/point screens with both complete engines in native/conservative models, and preserve acceptance of the original PR2260 rate."
+    }
+  ]
+}

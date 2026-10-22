@@ -1,0 +1,34 @@
+{
+  "checked_date": "2026-10-22",
+  "method": "GitHub connector read-only fixed-version fetches",
+  "records": [
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/fde6b107e26a14da5bac5b66913c914708ea6901/LICENSE",
+      "checked_date": "2026-10-22",
+      "license": "Apache-2.0",
+      "retrieved_successfully": true,
+      "scope": "Fixed-version repository license text"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b910e86383b2270cf14b7b659a808fa0eb075c7d/LICENSE",
+      "checked_date": "2026-10-22",
+      "license": "Apache-2.0",
+      "retrieved_successfully": true,
+      "scope": "Fixed-version repository license text"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/e71574b92f6af546013c71293cd03ff58742a1e6/research/kappa-lemma-toolkit/NOTICE.md",
+      "checked_date": "2026-10-22",
+      "license": "Apache-2.0",
+      "retrieved_successfully": true,
+      "scope": "PR2284 target-source notice and attribution"
+    },
+    {
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b910e86383b2270cf14b7b659a808fa0eb075c7d/research/selected-quadratic-root-brackets/README.md",
+      "checked_date": "2026-10-22",
+      "retrieved_successfully": true,
+      "scope": "PR1669 fixed theorem, license and attribution"
+    }
+  ],
+  "scope": "Selected license and source documents only; not every upstream file or a new novelty search."
+}

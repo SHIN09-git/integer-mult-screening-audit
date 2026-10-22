@@ -1,0 +1,24 @@
+Integer-multiplication screening and fallback audit
+Copyright 2026 JIN HANZHE
+Local public-release preparation of SHIN09-git's 2026-10-15 experiment.
+
+This product includes software and research evidence from CrocSwap/integer-mult-bounds.
+The original attribution notices are retained in study/inputs/, study/notices/,
+and study/competitive-input/. Those notices are part of this distribution.
+
+Aaron Wang / navinor, with help from chatgpt: the quadratic comparison theorem,
+exact screening implementation and controls in PR #1669.
+Dugongue and the disclosed OpenAI Codex collaborators: the fixed PR #2260
+selective-borrowing construction, owner plan, cost records and arithmetic replay;
+PR #2284 supplies only the higher target used by this experiment.
+Cinna Davis / 1337isnot1337: the preceding PR #2226 borrowing architecture.
+Further retained lineage includes Rohan Arun, Jeremy Kothe, Hao Yan,
+DreamingOfClouds, TennisBowling, eumemic, icekylinx, Zhihao Chen,
+hipotures/RaD, and the contributors named in the unchanged upstream notices.
+
+JIN HANZHE / SHIN09-git: this source-bound screening experiment and its public
+packaging, with substantial OpenAI Codex assistance. AI is not listed as an author.
+The upstream authors' endorsement or participation in this reanalysis is not implied.
+
+License: Apache-2.0. See LICENSE and LICENSING.md.
+

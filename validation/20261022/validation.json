@@ -1,0 +1,264 @@
+{
+  "status": "passed",
+  "mode": "benchmark",
+  "started_at_utc": "2026-10-22T05:27:36.869628+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "dependencies": "Python standard library only"
+  },
+  "manifest_files": 57,
+  "unchanged_research_files": 48,
+  "documented_public_adaptations": 3,
+  "historical_provenance": {
+    "status": "passed",
+    "benchmark_files": 3,
+    "measured_harness_files": 4,
+    "measured_packaged_python_ast_equal": true
+  },
+  "historical_timings": {
+    "status": "passed",
+    "workers": 581,
+    "worker_counts": {
+      "TIMINGS.json": 350,
+      "PAIRED-TIMINGS.json": 168,
+      "COMPETITIVE-TIMINGS.json": 63
+    },
+    "initial_summary_groups": 50,
+    "paired_summaries": [
+      {
+        "mode": "cold",
+        "case": "advertised_complex_rate",
+        "pairs": 21,
+        "full_median_seconds": 0.4416173999197781,
+        "gate_median_seconds": 0.4394961999496445,
+        "paired_median_gate_minus_full_seconds": 0.008924399968236685,
+        "paired_median_time_reduction_percent": -1.896964716032512,
+        "gate_faster_pairs": 7,
+        "paired_difference_range_seconds": [
+          -0.04403039999306202,
+          0.06606539990752935
+        ]
+      },
+      {
+        "mode": "cold",
+        "case": "too_large_rate",
+        "pairs": 21,
+        "full_median_seconds": 0.4307223999639973,
+        "gate_median_seconds": 0.3750943000195548,
+        "paired_median_gate_minus_full_seconds": -0.060854700044728816,
+        "paired_median_time_reduction_percent": 14.408598189246524,
+        "gate_faster_pairs": 21,
+        "paired_difference_range_seconds": [
+          -0.10036289994604886,
+          -0.02275899995584041
+        ]
+      },
+      {
+        "mode": "cold",
+        "case": "bracket_midpoint",
+        "pairs": 21,
+        "full_median_seconds": 0.46502249990589917,
+        "gate_median_seconds": 0.4664151999168098,
+        "paired_median_gate_minus_full_seconds": 0.0065122999949380755,
+        "paired_median_time_reduction_percent": -1.5212938614716842,
+        "gate_faster_pairs": 8,
+        "paired_difference_range_seconds": [
+          -0.06357180001214147,
+          0.12943860003724694
+        ]
+      },
+      {
+        "mode": "batch",
+        "case": "all_four",
+        "pairs": 21,
+        "full_median_seconds": 0.54502630000934,
+        "gate_median_seconds": 0.5207021000096574,
+        "paired_median_gate_minus_full_seconds": -0.024248899891972542,
+        "paired_median_time_reduction_percent": 4.472238934412598,
+        "gate_faster_pairs": 18,
+        "paired_difference_range_seconds": [
+          -0.061873699887655675,
+          0.021963899955153465
+        ]
+      }
+    ],
+    "competitive_summaries": {
+      "full_dual": {
+        "trials": 21,
+        "end_to_end_median_seconds": 0.33942299999762326,
+        "arithmetic_median_seconds": 0.06120680004823953,
+        "paired_median_seconds_saved": 0.0,
+        "paired_median_percent_saved": 0.0,
+        "faster_trials": 0
+      },
+      "root_screen": {
+        "trials": 21,
+        "end_to_end_median_seconds": 0.2881977000506595,
+        "arithmetic_median_seconds": 0.012320200097747147,
+        "paired_median_seconds_saved": 0.0507791000418365,
+        "paired_median_percent_saved": 15.090035151333247,
+        "faster_trials": 21
+      },
+      "reject_gate": {
+        "trials": 21,
+        "end_to_end_median_seconds": 0.2867837999947369,
+        "arithmetic_median_seconds": 0.009194600046612322,
+        "paired_median_seconds_saved": 0.05189619993325323,
+        "paired_median_percent_saved": 14.973459817799007,
+        "faster_trials": 21
+      }
+    },
+    "scope": "Recalculated from saved process samples; no timing value is a correctness threshold."
+  },
+  "steps": [
+    {
+      "script": "verify.py",
+      "exit_code": 0,
+      "seconds": 4.203,
+      "log": "verify.log"
+    },
+    {
+      "script": "competitive_target.py",
+      "exit_code": 0,
+      "seconds": 0.437,
+      "log": "competitive_target.log"
+    },
+    {
+      "script": "test_receipts.py",
+      "exit_code": 0,
+      "seconds": 13.016,
+      "log": "test_receipts.log"
+    },
+    {
+      "script": "benchmark.py",
+      "exit_code": 0,
+      "seconds": 110.453,
+      "log": "benchmark.log"
+    },
+    {
+      "script": "paired_benchmark.py",
+      "exit_code": 0,
+      "seconds": 62.328,
+      "log": "paired_benchmark.log"
+    },
+    {
+      "script": "competitive_target.py",
+      "exit_code": 0,
+      "seconds": 18.578,
+      "log": "competitive_target-timing.log"
+    }
+  ],
+  "exact_scope": {
+    "owner_rows": 31392,
+    "calls": 72,
+    "main_model_threshold_cases": 8,
+    "competitive_cases": 2,
+    "semantic_controls": 17,
+    "inherited_controls": 12,
+    "source_receipt_corruptions": 4,
+    "outer_constraints": 47,
+    "full_inherited_arithmetic_receipt_exact_match": true,
+    "note": "Counts reported only after rerunning and matching the exact receipts. Does not verify the complete multiplication algorithm."
+  },
+  "new_timings": {
+    "status": "passed",
+    "workers": 581,
+    "worker_counts": {
+      "TIMINGS.json": 350,
+      "PAIRED-TIMINGS.json": 168,
+      "COMPETITIVE-TIMINGS.json": 63
+    },
+    "initial_summary_groups": 50,
+    "paired_summaries": [
+      {
+        "mode": "cold",
+        "case": "advertised_complex_rate",
+        "pairs": 21,
+        "full_median_seconds": 0.3434987000073306,
+        "gate_median_seconds": 0.35948779998579994,
+        "paired_median_gate_minus_full_seconds": 0.014718099992023781,
+        "paired_median_time_reduction_percent": -4.260427959647095,
+        "gate_faster_pairs": 5,
+        "paired_difference_range_seconds": [
+          -0.05605199999990873,
+          0.04488259999197908
+        ]
+      },
+      {
+        "mode": "cold",
+        "case": "too_large_rate",
+        "pairs": 21,
+        "full_median_seconds": 0.3435613000037847,
+        "gate_median_seconds": 0.2887814999994589,
+        "paired_median_gate_minus_full_seconds": -0.052779799996642396,
+        "paired_median_time_reduction_percent": 15.231298445056197,
+        "gate_faster_pairs": 21,
+        "paired_difference_range_seconds": [
+          -0.07044609999866225,
+          -0.03166560000681784
+        ]
+      },
+      {
+        "mode": "cold",
+        "case": "bracket_midpoint",
+        "pairs": 21,
+        "full_median_seconds": 0.36831140000140294,
+        "gate_median_seconds": 0.37861549999797717,
+        "paired_median_gate_minus_full_seconds": 0.011452200007624924,
+        "paired_median_time_reduction_percent": -3.1287710520481182,
+        "gate_faster_pairs": 4,
+        "paired_difference_range_seconds": [
+          -0.019689299995661713,
+          0.03634780000720639
+        ]
+      },
+      {
+        "mode": "batch",
+        "case": "all_four",
+        "pairs": 21,
+        "full_median_seconds": 0.4389108000032138,
+        "gate_median_seconds": 0.42683409999881405,
+        "paired_median_gate_minus_full_seconds": -0.011074399997596629,
+        "paired_median_time_reduction_percent": 2.5484695691957326,
+        "gate_faster_pairs": 15,
+        "paired_difference_range_seconds": [
+          -0.04549849999602884,
+          0.011306700005661696
+        ]
+      }
+    ],
+    "competitive_summaries": {
+      "full_dual": {
+        "trials": 21,
+        "end_to_end_median_seconds": 0.32734489999711514,
+        "arithmetic_median_seconds": 0.06198120000772178,
+        "paired_median_seconds_saved": 0.0,
+        "paired_median_percent_saved": 0.0,
+        "faster_trials": 0
+      },
+      "root_screen": {
+        "trials": 21,
+        "end_to_end_median_seconds": 0.27496830000018235,
+        "arithmetic_median_seconds": 0.012272799998754635,
+        "paired_median_seconds_saved": 0.05210629999055527,
+        "paired_median_percent_saved": 16.01383753817859,
+        "faster_trials": 21
+      },
+      "reject_gate": {
+        "trials": 21,
+        "end_to_end_median_seconds": 0.27342789999966044,
+        "arithmetic_median_seconds": 0.008889399992767721,
+        "paired_median_seconds_saved": 0.05297410000639502,
+        "paired_median_percent_saved": 16.101707311147873,
+        "faster_trials": 21
+      }
+    },
+    "scope": "Recalculated from saved process samples; no timing value is a correctness threshold."
+  },
+  "frozen_files_unchanged_after_run": 48,
+  "manifest_files_unchanged_after_run": 57,
+  "elapsed_seconds": 209.14,
+  "finished_at_utc": "2026-10-22T05:31:06.096918+00:00"
+}

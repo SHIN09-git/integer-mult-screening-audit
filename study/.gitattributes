@@ -1,0 +1,5 @@
+* text eol=lf
+inputs/** -text -whitespace
+notices/** -text -whitespace
+competitive-input/** -text -whitespace
+COMPETITIVE-SOURCE.json -text whitespace=cr-at-eol

@@ -1,0 +1,26 @@
+{
+  "source_project": "integer-mult-research-20261015-round2",
+  "source_commit": "701f3acdb5cf656cff72bc0660e09f8cf7b9fc47",
+  "source_files": 51,
+  "unchanged_files": 48,
+  "changes": [
+    {
+      "path": "study/TIMINGS.json",
+      "original_sha256": "9cd9b08e0fb69433f9abdb4ad082d04164884b57eae1c6672cc058af77423984",
+      "public_sha256": "351ec912341a1c3651f282147bb24f9423a72b5df950832a3ed1f54be3d0ef98",
+      "reason": "Only environment.executable redacted; every numeric sample, outcome and summary retained."
+    },
+    {
+      "path": "study/BENCHMARK-PROVENANCE.json",
+      "original_sha256": "b7437b371385509f6ab740486105bcdddb9acfe2ef4bf84697b3892a1e1b6da4",
+      "public_sha256": "4a58e5424e46fa2ebe64304db1c8178dd8e42a97eb8e055be1f513d0f599d74c",
+      "reason": "Retain historical input/harness hashes; record the timing metadata redaction and update that file's published hash. Public text uses LF line endings for byte-stable Git exports."
+    },
+    {
+      "path": "study/README.md",
+      "original_sha256": "c56051c4ac04ec630d1fead05d0b43305b8cff08f5e4826254b1a58566382d8c",
+      "public_sha256": "bf63c522c2b865ded30b9995252c27cbb054d2ee355736b1f7423a98354f4657",
+      "reason": "Add author/date/entry notice and make monorepo commands work from the standalone root. Public text uses LF line endings for byte-stable Git exports."
+    }
+  ]
+}

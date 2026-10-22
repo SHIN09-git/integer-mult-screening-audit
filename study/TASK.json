@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "task_id": "replay-runtime",
+  "priority_revision": 4,
+  "base_commit": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+  "nonce": "311009a0157e09d3b53abfc65e19720f",
+  "assigned_track": "verifier-engineering",
+  "original_card": {
+    "id": "replay-runtime",
+    "question": "Can one measured replay bottleneck be sped up without dropping coverage?",
+    "starting_points": [
+      "scripts/run_isolated_tests.py",
+      "scripts/verify_replay_coverage.py",
+      "certificates/selected-result.json"
+    ],
+    "methods": [
+      "Profile one isolated replay and optimize the measured bottleneck.",
+      "Design source-bound reuse with explicit dependency invalidation and negative controls."
+    ],
+    "acceptance_gate": "Report before/after wall time on the same fixture, retained checks and invalidation behavior.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected reproduction command and choose a single replay stage for profiling.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Measure one unchanged fixture, preserve check coverage, and test one optimization with invalidation controls.",
+    "bottleneck_link": "Faster trustworthy replays increase review throughput and let mechanism candidates be checked sooner.",
+    "allowed_variations": [
+      "Profile one stage or design one source-bound cache boundary."
+    ],
+    "scope_change_triggers": [
+      "Skipping coverage or comparing different fixtures to claim speedup."
+    ],
+    "overlap_terms": [
+      "replay runtime",
+      "cache invalidation",
+      "isolated tests"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Source-bind PR2260's complete reported complex local-plus-owner-residual invoice and inherited surcharge; apply PR1669's quadratic surrogate and compare identical threshold decisions with both complete rational moment engines, including cold input/preparation cost.",
+  "scope_key": "pr2260-fde6b107/full-complex-invoice/quadratic-threshold-screen-and-timing",
+  "scope_change_reason": "Follow PR1669's explicit pending-profile handoff, rather than another selected-root computation or the previous P104 composition.",
+  "budget_minutes": 60,
+  "started_at_utc": "2026-10-15T05:52:37Z",
+  "stop_rule": "One pinned pending invoice, native/conservative variants, fixed thresholds plus one bracket-interior boundary case. One profiling-based adaptation allowed. Stop with measured positive, negative or inconclusive evidence; do not optimize unrelated stages. Final overlap permitted one additional published threshold from PR2284 on the identical invoice; no second supplier search.",
+  "author": "SHIN09-git, with substantial OpenAI Codex assistance",
+  "publication_status": "Local research only; no advance public Discussion reservation posted.",
+  "original_acceptance_gate_met": true,
+  "selected_frontier_changed": false,
+  "outcome": "completed",
+  "source_heads": {
+    "1669": "b910e86383b2270cf14b7b659a808fa0eb075c7d",
+    "2260": "fde6b107e26a14da5bac5b66913c914708ea6901",
+    "2284": "e71574b92f6af546013c71293cd03ff58742a1e6"
+  },
+  "baseline_first_command": {
+    "command": "python -B scripts/research_baseline.py",
+    "status": "not_passed_in_sparse_checkout",
+    "reason": "Selected certificate and full selected source inventory were not materialized. The first binding check failed on missing ASSEMBLY.json; a broad materialization failed on missing local Git objects and was stopped. No selected cold-replay or source-binding success is claimed. This experiment freezes only its explicit consumed source subset."
+  },
+  "bottleneck_link": "A measured fail-closed screen could reduce pricing work for candidate suppliers without dropping their native/hosting/precision obligations.",
+  "nearest_overlap": [
+    "https://github.com/CrocSwap/integer-mult-bounds/pull/1669",
+    "https://github.com/CrocSwap/integer-mult-bounds/pull/2260",
+    "https://github.com/CrocSwap/integer-mult-bounds/pull/2311",
+    "https://github.com/CrocSwap/integer-mult-bounds/pull/1939"
+  ],
+  "overlap_distinction": "PR1669 only screens frozen selected roots and explicitly asks for pending-invoice timing. PR2260 provides the input supplier and exact arithmetic. PR2311 audits supplier-admission premises, not surrogate decisions or timing; PR1939 optimizes different selected-stage copying. Entry metadata/body search found no exact pending2260 quadratic screen.",
+  "open_questions": [
+    {
+      "question": "Does a reject-only gate save total pricing time on a predeclared collection of distinct candidate invoices?",
+      "why_it_matters": "The actual PR2260 rate passes; the observed rejection benefit uses a deliberately raised threshold, not a failed real supplier.",
+      "first_step": "Freeze the collection and thresholds before timing; include source binding, every fallback, and measured rejection/ambiguity frequencies.",
+      "blocked_by": "This study intentionally covers one invoice; four constructed thresholds are not a representative search distribution."
+    },
+    {
+      "question": "Can a lower log precision preserve declared threshold margins with an exact fallback?",
+      "why_it_matters": "Exact log preparation limits cold-screen speed and the existing fast full engine is already competitive.",
+      "first_step": "Derive outward error requirements from a declared margin and prove a fail-closed decision rule before reducing series work.",
+      "blocked_by": "No reduced-precision bound or implementation is established here."
+    }
+  ],
+  "overlap": {
+    "searched_at": "2026-10-15T06:01:30.610266+00:00",
+    "coverage": {
+      "open_prs": {
+        "fetched_at": "2026-10-15T05:56:17.639585+00:00",
+        "complete_pagination": true,
+        "records": 551
+      },
+      "discussions": {
+        "fetched_at": "2026-10-15T06:01:30.504903+00:00",
+        "complete_pagination": true,
+        "records": 1063
+      }
+    },
+    "local_records": 1536,
+    "terms": [
+      "1669",
+      "quadratic screening",
+      "selective borrowing"
+    ],
+    "matches_total": 14,
+    "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+    "all_state_searches": {
+      "1669": [
+        1669
+      ],
+      "2260 quadratic": [
+        2260
+      ],
+      "checked_at_utc": "2026-10-15T06:06:00Z",
+      "limitation": "GitHub search token matching can return broader matches; not every diff or a novelty guarantee."
+    },
+    "final_checkpoint": {
+      "searched_at": "2026-10-15T06:22:50.505830+00:00",
+      "coverage": {
+        "open_prs": {
+          "fetched_at": "2026-10-15T06:17:37.045061+00:00",
+          "complete_pagination": true,
+          "records": 564
+        },
+        "discussions": {
+          "fetched_at": "2026-10-15T06:22:50.420813+00:00",
+          "complete_pagination": true,
+          "records": 1078
+        }
+      },
+      "local_records": 1538,
+      "terms": [
+        "1669",
+        "2260",
+        "quadratic screening"
+      ],
+      "matches_total": 25,
+      "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+      "reviewed_related": {
+        "2311": "Admission-premise audit; not surrogate timing.",
+        "2265": "Outer retune and high precision endpoint; not surrogate timing.",
+        "2284": "Changed profile and published higher target; used only as a pinned threshold.",
+        "2315": "Independent T74 borrow43 audit, a different invoice.",
+        "2339": "New low-alias construction on T74, a different invoice."
+      }
+    }
+  },
+  "evidence": "Complete old-invoice recount (31392 rows, 72 calls), unchanged original full arithmetic receipt including 47 outer rows, eight original plus two published-competitive threshold/model checks, observed exact-engine callback coverage, 17 semantic controls, 12 inherited controls, four corruption controls. 581 fresh-process timing workers across three disclosed experiments. Original accepted rate has no stable overall speedup; the old invoice is rejected at PR2284's real higher target with about 15% paired total-time saving on this host.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in task selection, source research, implementation, proof review, exact checks, benchmark design and writing. One assistant; no second agent, independent human or proof assistant.",
+  "method_adaptation": "The pilot profile showed exact-log preparation and Fraction arithmetic dominate. One bounded adaptation evaluates the inherited quadratic inequalities at a target, eliminating two 100-step bisections. No frozen implementation is modified.",
+  "followup_after_final_overlap": {
+    "identified_at_utc": "2026-10-15T06:25:17Z",
+    "source": "https://github.com/CrocSwap/integer-mult-bounds/pull/2284",
+    "rate": "84179/50000000",
+    "same_invoice": true,
+    "scope": "Add the published higher rate to the same old PR2260 invoice. The new PR2284 profile is neither substituted nor audited. Preserve all original four-threshold measurements.",
+    "reason": "A real competitive target strengthens the handoff beyond the deliberately raised rejection control, without selecting another invoice."
+  },
+  "upstream_checkpoint": {
+    "checked_at_utc": "2026-10-15T06:17:37Z",
+    "canonical_main": "0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2",
+    "priority_revision": 4,
+    "guidance_changed": false,
+    "pr2260": {
+      "headRefOid": "fde6b107e26a14da5bac5b66913c914708ea6901",
+      "number": 2260,
+      "state": "OPEN",
+      "updatedAt": "2026-10-15T02:35:02Z",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/2260"
+    }
+  },
+  "conclusion": "One concrete use of PR1669 screening is validated and timed: discard this old invoice at a published higher target before full dual-engine pricing. Do not infer a search-wide gain, a rejection of PR2284's new invoice, or a failed original PR2260 claim.",
+  "finished_at_utc": "2026-10-15T06:37:23.741696+00:00",
+  "elapsed_research_minutes": 44.78
+}

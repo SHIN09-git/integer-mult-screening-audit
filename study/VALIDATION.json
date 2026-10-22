@@ -1,0 +1,57 @@
+{
+  "status": "PASS_LOCAL_SCOPED_REPLAYS",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows 11 AMD64",
+    "dependencies": "Python standard library only",
+    "gpu": false
+  },
+  "registered": {
+    "command": [
+      "python",
+      "-B",
+      "scripts/research_package.py",
+      "--package",
+      "research/pending2260-quadratic-screen"
+    ],
+    "status": "PASS_REGISTERED_RESEARCH_PACKAGE",
+    "commands": 3,
+    "includes_optimized_corruption_controls": true
+  },
+  "standalone_initial": {
+    "status": "PASS_STANDALONE_READ_ONLY",
+    "seconds": 4.315807199920528,
+    "files": 43,
+    "source_only_outside_git": true,
+    "all_file_hashes_unchanged": true,
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "checked_at_utc": "2026-10-15T06:19:40.086642+00:00"
+  },
+  "scientific_checks": {
+    "old_invoice_owner_rows": 31392,
+    "calls": 72,
+    "original_model_threshold_cases": 8,
+    "published_competitive_cases": 2,
+    "new_semantic_controls": 17,
+    "inherited_surrogate_controls": 12,
+    "source_receipt_corruption_controls": 4,
+    "original_arithmetic_receipt_matches_exactly": true,
+    "retained_outer_constraints": 47,
+    "actual_gate_evaluator_callbacks_observed": true
+  },
+  "timing": {
+    "fresh_process_workers": 581,
+    "descriptive_only": true,
+    "not_integer_multiplication_runtime": true,
+    "not_full_native_supplier_replay": true
+  },
+  "source_only_note": "Direct replays need no Git or network. The registered launcher uses Git only for pinned catalogue provenance. The earlier full selected baseline command did not pass in the sparse checkout; it is outside this pricing experiment.",
+  "scope": "One frozen PR2260 complete reported pricing invoice. Native/physical/precision and all-size supplier proof obligations remain inherited. No changed selected frontier, new kappa, full theorem, independent human review or hosted-CI success.",
+  "checked_at_utc": "2026-10-15T06:37:23.740696+00:00",
+  "git_export_roundtrip_repair": {
+    "finding": "The first Git export differed only in competitive_source_sha256: the source manifest had been added before its -text attribute and was already normalized in the index.",
+    "repair": "Force re-add the unchanged original CRLF manifest under -text; allow CR at EOL only for this hash-bound record. Frozen research inputs, mathematical results and timing samples are unchanged.",
+    "verification": "Final committed-export replay receipt is delivered separately as git-export-validation.json."
+  }
+}
