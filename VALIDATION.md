@@ -32,4 +32,4 @@
 
 解释器本机路径已从计时元数据移除，计时输出日志中的本机目录也替换为 `<output>`。数值样本和精确核验结果没有修改。原研究的三项修改见 [PUBLIC_CHANGES.json](provenance/PUBLIC_CHANGES.json)。
 
-GitHub Actions 已准备 Windows 与 Ubuntu 的默认精确核验流程，依赖固定到提交。**本候选尚未发布，远端 Actions 和 Linux 实机运行均未执行。** 本地打包、引用格式及解压目录复跑的最终记录随发布包另附，避免把归档自身的校验写回归档。
+以上记录对应发布前 Windows 本机验证。Windows/Ubuntu 的默认精确核验实际运行状态见 [Actions](https://github.com/SHIN09-git/integer-mult-screening-audit/actions)，发布附件中的 RELEASE_VALIDATION.json 记录发布提交对应的检查结果。云端流程重新核验精确结果和两套随包计时摘要，不重新计时。本地打包、引用格式及解压目录复跑的最终记录随发布包另附，避免把归档自身的校验写回归档。

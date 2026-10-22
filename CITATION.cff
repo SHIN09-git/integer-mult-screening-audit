@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite this local release candidate and the pinned upstream contributions. This candidate is not yet published."
+message: "Please cite this release and the pinned upstream contributions."
 type: software
 title: "Integer-multiplication pricing: quadratic screening and exact fallback audit"
-version: "1.0.0-rc.1"
+version: "1.0.0"
+date-released: "2026-10-22"
+repository-code: "https://github.com/SHIN09-git/integer-mult-screening-audit"
+url: "https://github.com/SHIN09-git/integer-mult-screening-audit/releases/tag/v1.0.0"
 authors:
   - family-names: JIN
     given-names: HANZHE

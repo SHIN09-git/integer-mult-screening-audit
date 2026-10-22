@@ -1,7 +1,7 @@
 # Integer-multiplication pricing: when does screening save time?
 
 JIN HANZHE · Independent Researcher, Chongqing, China  
-Local release candidate 1.0.0-rc.1 · Research 2026-10-15 · Prepared 2026-10-22  
+Release 1.0.0 · Research 2026-10-15 · Released 2026-10-22  
 [中文](README.md) · [Reproduction](REPRODUCING.md) · [Detailed study](study/README.md)
 
 This is a reproducible screening-and-fallback experiment on one complete reported pricing invoice. It applies Aaron Wang / navinor's quadratic bounds from PR #1669 to the fixed old PR #2260 invoice. A higher target from PR #2284 is used without substituting or rejecting PR #2284's improved construction.
@@ -30,5 +30,5 @@ The safe gate exits early only on a certified rejection; surviving and inconclus
 
 The retained experiment uses Apache-2.0. Original source notices remain in the package; new release code and documentation use the same license. See [LICENSING.md](LICENSING.md), [NOTICE](NOTICE), and [CITATION.cff](CITATION.cff).
 
-Author/contact: JIN HANZHE, jinhanzhe09@gmail.com. OpenAI Codex assisted this work and is not an author. Independent human verification and peer review are not claimed. This candidate has not been published to a remote repository.
+Author/contact: JIN HANZHE, jinhanzhe09@gmail.com. OpenAI Codex assisted this work and is not an author. Independent human verification and peer review are not claimed. Repository: [SHIN09-git/integer-mult-screening-audit](https://github.com/SHIN09-git/integer-mult-screening-audit). Release: [v1.0.0](https://github.com/SHIN09-git/integer-mult-screening-audit/releases/tag/v1.0.0).
 

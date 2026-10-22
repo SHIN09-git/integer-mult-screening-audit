@@ -1,7 +1,7 @@
 # 整数乘法成本核验：快速筛选何时省时
 
 **JIN HANZHE · Independent Researcher, Chongqing, China**  
-本地发布候选 1.0.0-rc.1 · 研究日期 2026-10-15 · 公开整理 2026-10-22  
+正式版本 1.0.0 · 研究日期 2026-10-15 · 发布日期 2026-10-22  
 [English](README.en.md) · [中文研究说明](docs/中文研究说明.md) · [复现入口](REPRODUCING.md) · [验证记录](VALIDATION.md) · [引用](CITATION.cff)
 
 本项目研究一个具体问题：在整数乘法构造的成本核验中，先做便宜的严格筛选，是否比直接完成精确计算更省时？
@@ -58,5 +58,5 @@ python reproduce.py
 - [AUTHORSHIP.md](AUTHORSHIP.md)、[NOTICE](NOTICE)：JIN HANZHE 署名、AI 使用及前人贡献。
 - [LICENSING.md](LICENSING.md)：沿用 Apache-2.0，完整条款见 [LICENSE](LICENSE)。
 
-来源检查、研究分析、起草和公开整理使用了 OpenAI Codex。没有声称独立人工复核、同行评审或证明助手已完成整个整数乘法定理验证。该候选尚未建立公共仓库或发布正式版本。
+来源检查、研究分析、起草和公开整理使用了 OpenAI Codex。没有声称独立人工复核、同行评审或证明助手已完成整个整数乘法定理验证。公共仓库为 [SHIN09-git/integer-mult-screening-audit](https://github.com/SHIN09-git/integer-mult-screening-audit)，发布包见 [v1.0.0](https://github.com/SHIN09-git/integer-mult-screening-audit/releases/tag/v1.0.0)。
 
